@@ -6,6 +6,10 @@ module.exports = {
     platforms: {
       android: {
         cmakeListsPath: 'generated/jni/CMakeLists.txt',
+        cxxModuleCMakeListsModuleName: 'react-native-codegen-example',
+        cxxModuleCMakeListsPath: 'CMakeLists.txt',
+        cxxModuleHeaderName: 'NativeCodegenExampleTurboModule',
+
       },
     },
   },
