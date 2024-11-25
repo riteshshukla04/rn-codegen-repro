@@ -1,28 +1,6 @@
-# react-native-codegen-example
-
-Example Package
-
-## Installation
-
-```sh
-npm install react-native-codegen-example
-```
-
-## Usage
+# react-native-codegen-example Reproducer
 
 
-```js
-import { multiply } from 'react-native-codegen-example';
-
-// ...
-
-const result = multiply(3, 7);
-```
-
-
-## Contributing
-
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
 
 ## License
 
