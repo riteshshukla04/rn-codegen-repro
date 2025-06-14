@@ -15,12 +15,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-      
-      - name: 💎 Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-            ruby-version: '3.0'  # Match your local Ruby version
-            bundler-cache: true
         
       - name: 🤖 Run yarn init-android
         run: yarn install --network-concurrency 1
